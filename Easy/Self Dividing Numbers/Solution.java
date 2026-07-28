@@ -1,6 +1,4 @@
-while(temp!=0)
-            {
-                int rem=temp%10;
+int rem=temp%10;
                 if(rem==0 || num%rem!=0)
                 {
                     return false;
@@ -15,3 +13,5 @@ while(temp!=0)
         {
             if(solve(i))
             {
+                l.add(i);
+            }
