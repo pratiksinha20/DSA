@@ -1,6 +1,4 @@
-int rem=temp%10;
-                if(rem==0 || num%rem!=0)
-                {
+{
                     return false;
                 }
                 temp=temp/10;
@@ -15,3 +13,5 @@ int rem=temp%10;
             {
                 l.add(i);
             }
+        }
+        return l;
