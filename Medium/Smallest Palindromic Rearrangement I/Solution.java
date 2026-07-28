@@ -1,6 +1,5 @@
 class Solution {
-public:
-    string smallestPalindrome(string s) {
+    public String smallestPalindrome(String s) {
         
     }
-};
+}
