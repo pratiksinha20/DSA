@@ -1,7 +1,4 @@
-{
-                    return false;
-                }
-                temp=temp/10;
+temp=temp/10;
             }
             return true;
     }
@@ -15,3 +12,5 @@
             }
         }
         return l;
+    }
+}
