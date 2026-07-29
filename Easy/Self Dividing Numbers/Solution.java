@@ -1,8 +1,4 @@
-temp=temp/10;
-            }
-            return true;
-    }
-    public List<Integer> selfDividingNumbers(int left, int right) {
+public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> l=new ArrayList<>();
         for(int i=left; i<=right; i++)
         {
