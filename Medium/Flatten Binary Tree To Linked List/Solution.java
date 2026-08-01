@@ -2,15 +2,15 @@ class Solution {
  */
  * }
  *     }
- *         this.right = right;
- *         this.left = left;
- *         this.val = val;
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode() {}
- *     TreeNode right;
- *     TreeNode left;
- *     int val;
- * public class TreeNode {
- * Definition for a binary tree node.
-/**
+    public void flatten(TreeNode root) {
+        // TreeNode curr=root;
+        TreeNode pre=null;
+        if(root==null)
+        {
+            return;
+        }
+        flatten(root.right);
+        flatten(root.left);
+        root.right=pre;
+        pre=root;
+        pre.left=null;
