@@ -1,8 +1,4 @@
-class Solution {
- */
- * }
- *     }
-    public void flatten(TreeNode root) {
+public void flatten(TreeNode root) {
         // TreeNode curr=root;
         TreeNode pre=null;
         if(root==null)
@@ -14,3 +10,7 @@ class Solution {
         root.right=pre;
         pre=root;
         pre.left=null;
+        
+        pre= root;
+    }
+}
