@@ -1,7 +1,4 @@
-public void flatten(TreeNode root) {
-        // TreeNode curr=root;
-        TreeNode pre=null;
-        if(root==null)
+if(root==null)
         {
             return;
         }
@@ -9,8 +6,9 @@ public void flatten(TreeNode root) {
         flatten(root.left);
         root.right=pre;
         pre=root;
-        pre.left=null;
         
+
         pre= root;
     }
+        pre.left=null;
 }
