@@ -2,7 +2,7 @@
 
 **Difficulty**: Medium  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/)  
+**Problem URL**: [https://leetcode.com/problems/flatten-binary-tree-to-linked-list/](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)  
 
 ## Submission Details
 - **Status**: Accepted
