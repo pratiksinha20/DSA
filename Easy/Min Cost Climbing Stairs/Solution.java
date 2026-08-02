@@ -1,8 +1,4 @@
-}
-        {
-            return mn=cost[idx]+cost[idx+1];
-        }
-        else
+else
         }
             return mn=cost[idx]+cost[idx+2];
         {
@@ -12,5 +8,9 @@
 class Solution {
         if(nums.length<2)
         {
-            
+            if(nums[0]>nums[1]) return nums[1];
         }
+            else
+            {
+                
+            }
