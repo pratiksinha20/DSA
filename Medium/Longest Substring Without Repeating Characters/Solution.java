@@ -1,11 +1,10 @@
-{
-        while(r<s.length())
-        Arrays.fill(hash, -1);
-        // Arrays.fill(hash, -1);
-        int[] hash=new int[256];
-        // List<Integer> hash=new ArrayList<>();
-        int l=0;
-        int r=0;
-        int ans=0;
-    public int lengthOfLongestSubstring(String s) {
-class Solution {
+l=Math.max(l, hash[s.charAt(r)]+1);
+            }
+            hash[s.charAt(r)]=r;
+
+            ans=Math.max(ans, r-l+1);
+            r++;
+        }
+       return ans; 
+    }
+}
