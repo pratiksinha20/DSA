@@ -1,4 +1,4 @@
-if(hash!=-1)
+if(hash[charAt]!=-1)
         {
         while(r<s.length())
         // Arrays.fill(hash, -1);
