@@ -1,17 +1,17 @@
 {
-        if(cost.length<2)
-        {
-            if(cost[0]>cost[1]) return cost[1];
-            else
-            {
-                return cost[0];
-            }
-        }
-        if((cost[idx]+cost[idx+1])>(cost[idx]+cost[idx+2]))
-        {
             return mn=cost[idx]+cost[idx+2];
         }
         else
         {
             return mn=cost[idx]+cost[idx+1];
         }
+    }
+
+
+    public int minCostClimbingStairs(int[] cost) {
+        int idx=0;
+        int mn=Integer.MAX_VALUE;
+        return solve(idx, cost, mn);
+        
+    }
+}
