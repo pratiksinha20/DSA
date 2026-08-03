@@ -1,6 +1,4 @@
-{
-            return mn=cost[idx]+cost[idx+2];
-        }
+}
         else
         {
             return mn=cost[idx]+cost[idx+1];
@@ -15,3 +13,5 @@
         
     }
 }
+            return mn=cost[idx]+cost[idx+2];
+        {
