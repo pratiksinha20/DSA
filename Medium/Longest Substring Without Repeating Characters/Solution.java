@@ -1,10 +1,12 @@
-class Solution {
-    public int lengthOfLongestSubstring(String s) {
+public int lengthOfLongestSubstring(String s) {
         int l=0;
         int r=0;
         int ans=0;
-        int[] arr=new int[];
-        
-        
-    }
-}
+        List<Integer> hash=new int[256];
+        Arrays.fill(arr, -1);
+        while(r<s.length())
+        {
+            if(hash[s[r]]!=-1)
+            {
+                
+            }
