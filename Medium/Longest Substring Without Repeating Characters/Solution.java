@@ -1,5 +1,4 @@
-public int lengthOfLongestSubstring(String s) {
-        int l=0;
+int l=0;
         int r=0;
         int ans=0;
         List<Integer> hash=new int[256];
@@ -8,5 +7,6 @@ public int lengthOfLongestSubstring(String s) {
         {
             if(hash[s[r]]!=-1)
             {
+                l=Math.max(l, h[s[0]]+1)
                 
             }
