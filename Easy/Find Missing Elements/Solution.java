@@ -1,5 +1,5 @@
 List<Integer> arr=new ArrayList<>(n);
-        int t=nums[n-]
+        int t=nums[n-1]-nums[0]
         for(int i=0; i<n-1; i++)
         {
             if(nums[i]!=nums[i+1]-1)
