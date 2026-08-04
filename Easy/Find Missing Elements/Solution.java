@@ -1,6 +1,4 @@
-class Solution {
-    public List<Integer> findMissingElements(int[] nums) {
-        int n=nums.length;
+int n=nums.length;
         Arrays.sort(nums);
         List<Integer> arr=new ArrayList<>(n);
         
@@ -14,3 +12,7 @@ class Solution {
         if(n==arr.size())
         {
             return arr;
+        }
+        return new ArrayList<>();
+    }
+}
