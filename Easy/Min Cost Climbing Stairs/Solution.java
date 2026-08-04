@@ -1,15 +1,15 @@
-}
-            return mn=cost[idx]+cost[idx+2];
-        {
-        if((cost[idx]+cost[idx+1])>(cost[idx]+cost[idx+2]))
-
-        if(idx==n-1)
-    {
-    int solve(int idx, int[] cost, int mn)
 class Solution {
+    int solve(int idx, int[] cost, int mn)
+    {
         int n=cost.length;
+        if(idx==n-1) return cost[idx];
         else
         {
-            return mn=cost[idx]+cost[idx+1];
+            return cost
         }
-    }
+        if((cost[idx]+cost[idx+1])>(cost
+        [idx]+cost[idx+2]))
+        {
+            return mn=cost[idx]+cost[idx
+            +2];
+        }
