@@ -1,6 +1,5 @@
 class Solution {
-public:
-    vector<int> findMissingElements(vector<int>& nums) {
+    public List<Integer> findMissingElements(int[] nums) {
         
     }
-};
+}
