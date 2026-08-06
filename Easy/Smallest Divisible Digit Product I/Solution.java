@@ -1,12 +1,12 @@
-class Solution {
-    public int smallestNumber(int n, int t) {
-        for(int i=n; i<100; i++)
-        {
-            while(n!=0)
-            {
+}
+                int rem=n%10;
+            }
+                n=n/10;
+                mul=mul*rem;
+        if(mul%t==0)
+        { retr
+
         }
    
-                
-            }
     }
 }
