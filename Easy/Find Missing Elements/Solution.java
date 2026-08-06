@@ -1,7 +1,7 @@
 {
             hs.add(num);
         }
-        for(int i=nums[0]; i<; i++)
+        for(int i=nums[0]; i<n; i++)
         {
             if(!hs.contains(i))
             {
