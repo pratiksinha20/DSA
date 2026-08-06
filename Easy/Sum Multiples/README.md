@@ -2,10 +2,10 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/sum-multiples/submissions/2086684115/?envType=problem-list-v2&envId=math](https://leetcode.com/problems/sum-multiples/submissions/2086684115/?envType=problem-list-v2&envId=math)  
+**Problem URL**: [https://leetcode.com/problems/sum-multiples/submissions/2097052979/](https://leetcode.com/problems/sum-multiples/submissions/2097052979/)  
 
 ## Submission Details
 - **Status**: Accepted
-- **Submitted**: 2026-07-29
+- **Submitted**: 2026-08-06
 
 *Generated automatically by LeetCode Auto GitHub Sync.*
