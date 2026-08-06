@@ -2,7 +2,7 @@
 
 **Difficulty**: Medium  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  
+**Problem URL**: [https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2092483753/](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/2092483753/)  
 
 ## Submission Details
 - **Status**: Accepted
