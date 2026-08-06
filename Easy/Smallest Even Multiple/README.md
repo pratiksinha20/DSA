@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/smallest-even-multiple/](https://leetcode.com/problems/smallest-even-multiple/)  
+**Problem URL**: [https://leetcode.com/problems/smallest-even-multiple/submissions/2097057943/](https://leetcode.com/problems/smallest-even-multiple/submissions/2097057943/)  
 
 ## Submission Details
 - **Status**: Accepted
