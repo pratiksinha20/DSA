@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)  
+**Problem URL**: [https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/submissions/2097055035/](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/submissions/2097055035/)  
 
 ## Submission Details
 - **Status**: Accepted
