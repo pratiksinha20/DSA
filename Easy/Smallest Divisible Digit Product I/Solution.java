@@ -1,5 +1,4 @@
-int mul = 1;
-        int i = n;
+int i = n;
         while(i<100)
         {
             while(i=0)
@@ -12,7 +11,7 @@ int mul = 1;
             {
                 i++;
             }
-        }
-
-    }
-}
+            else
+            {
+                
+            }
