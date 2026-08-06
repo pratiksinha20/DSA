@@ -1,4 +1,15 @@
-public List<Integer> selfDividingNumbers(int left, int right) {
+while(temp!=0)
+            {
+                int rem=temp%10;
+                if(rem==0 || num%rem!=0)
+                {
+                    return false;
+                }
+                temp=temp/10;
+            }
+            return true;
+    }
+    public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> l=new ArrayList<>();
         for(int i=left; i<=right; i++)
         {
@@ -7,6 +18,7 @@ public List<Integer> selfDividingNumbers(int left, int right) {
                 l.add(i);
             }
         }
-        return l;
-    }
-}
+    {
+        int temp=num;
+    boolean solve(int num)
+class Solution {
