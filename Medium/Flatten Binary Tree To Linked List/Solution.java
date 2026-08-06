@@ -1,4 +1,11 @@
-// TreeNode curr=root;
+*         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    TreeNode pre=null;
+    public void flatten(TreeNode root) {
+        // TreeNode curr=root;
         
         if(root==null)
         {
