@@ -1,12 +1,16 @@
-}
-                int rem=n%10;
-            }
-                n=n/10;
-                mul=mul*rem;
-        if(mul%t==0)
-        { retr
-
+\
+        if(mul%t!=0)
+        { 
         }
-   
+            i++;
+        while(i)
+        int i=n;
+
+        int mul=1;
+    public int smallestNumber(int n, int t) {
+class Solution {
+        return 
     }
+
+
 }
