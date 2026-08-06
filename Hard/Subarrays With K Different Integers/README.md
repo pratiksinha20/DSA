@@ -2,7 +2,7 @@
 
 **Difficulty**: Hard  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/subarrays-with-k-different-integers/](https://leetcode.com/problems/subarrays-with-k-different-integers/)  
+**Problem URL**: [https://leetcode.com/problems/subarrays-with-k-different-integers/submissions/2096317754/](https://leetcode.com/problems/subarrays-with-k-different-integers/submissions/2096317754/)  
 
 ## Submission Details
 - **Status**: Accepted
