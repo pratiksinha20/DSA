@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/find-missing-elements/description/](https://leetcode.com/problems/find-missing-elements/description/)  
+**Problem URL**: [https://leetcode.com/problems/find-missing-elements/](https://leetcode.com/problems/find-missing-elements/)  
 
 ## Submission Details
 - **Status**: Accepted
