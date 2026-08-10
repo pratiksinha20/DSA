@@ -1,8 +1,4 @@
-class Solution {
-    public int[] maxSlidingWindow(int[] nums, int k) {
-        int n=nums.length;
-        PriorityQueue<Pair<Integer,Integer>> pq=new 
-        PriorityQueue<>();
+PriorityQueue<>();
         List<Integer> li=new ArrayList<>();
 
         for(int i=0; i<k; i++)
@@ -14,3 +10,13 @@ class Solution {
 
         for(int i=k; i<n; i++)
         {
+            pq.add({nums[i], i});
+
+            while(!pq.empty() &&pq.peek().first<i-k+1)
+            {
+                pq.poll();
+            }
+            li.add(pq.peek().first);
+        }
+        return li;
+    }
