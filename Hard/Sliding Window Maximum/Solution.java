@@ -1,5 +1,4 @@
-for(int i=0; i<k; i++)
-        {
+{
             pq.add({nums[i], i});
 
         }
