@@ -1,7 +1,4 @@
-PriorityQueue<>();
-        List<Integer> li=new ArrayList<>();
-
-        for(int i=0; i<k; i++)
+for(int i=0; i<k; i++)
         {
             pq.add({nums[i], i});
 
@@ -20,3 +17,4 @@ PriorityQueue<>();
         }
         return li;
     }
+}
