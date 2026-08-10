@@ -1,6 +1,4 @@
-li.add(pq.peek().first);
-
-        for(int i=k; i<n; i++)
+for(int i=k; i<n; i++)
         {
             pq.add({nums[i], i});
         }
@@ -10,9 +8,6 @@ li.add(pq.peek().first);
                 pq.poll();
             }
             li.add(pq.peek().first);
-
-
-
-
     }
-        return
+        return li;
+}
