@@ -2,7 +2,7 @@
 
 **Difficulty**: Hard  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/sliding-window-maximum/description/](https://leetcode.com/problems/sliding-window-maximum/description/)  
+**Problem URL**: [https://leetcode.com/problems/sliding-window-maximum/](https://leetcode.com/problems/sliding-window-maximum/)  
 
 ## Submission Details
 - **Status**: Accepted
