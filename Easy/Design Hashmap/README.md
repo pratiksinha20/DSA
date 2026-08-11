@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/design-hashmap/description/](https://leetcode.com/problems/design-hashmap/description/)  
+**Problem URL**: [https://leetcode.com/problems/design-hashmap/](https://leetcode.com/problems/design-hashmap/)  
 
 ## Submission Details
 - **Status**: Accepted
