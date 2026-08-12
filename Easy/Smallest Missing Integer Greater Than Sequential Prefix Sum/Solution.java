@@ -1,6 +1,11 @@
 class Solution {
     public int missingInteger(int[] nums) {
-        for
-    }
 
+        for(int i=0; i<nums.length; i++)
+        {
+            
+        }
+
+ 
+    }
 }
