@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/)  
+**Problem URL**: [https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/submissions/2104743881/?envType=daily-question&envId=2026-08-11](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/submissions/2104743881/?envType=daily-question&envId=2026-08-11)  
 
 ## Submission Details
 - **Status**: Accepted
