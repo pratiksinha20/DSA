@@ -1,5 +1,4 @@
 }
-        }
             mx.offer(mn.poll());
         than mn
         if (mx.size() < mn.size()) {
@@ -20,3 +19,4 @@
     // min-heap for larger half
     (Collections.reverseOrder());
     PriorityQueue<Integer> mx = new PriorityQueue<>
+    // max-heap for smaller half
