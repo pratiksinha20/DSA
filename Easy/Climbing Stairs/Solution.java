@@ -1,5 +1,4 @@
-class Solution {
-    int solve(int n, int[] dp)
+int solve(int n, int[] dp)
     {
         if(n<=3) return n;
         if(dp[n]!=-1)
