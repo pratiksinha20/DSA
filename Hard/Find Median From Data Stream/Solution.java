@@ -1,16 +1,22 @@
-if (mx.size() == mn.size()) {
-            // even count → average of two middle values
-            return (mx.peek() + mn.peek()) / 2.0;
-        } else {
-            // odd count → top of max-heap
-            return mx.peek();
-        }
-    }
 }
+        }
+            mx.offer(mn.poll());
+        than mn
+        if (mx.size() < mn.size()) {
+        // Step 3: Ensure mx has equal or one more element 
+        
+        mn.offer(mx.poll());
+        // Step 2: Balance by moving largest from mx to mn
+        
+        mx.offer(num);
+        // Step 1: Add to max-heap first
+    public void addNum(int num) {
+    
+    }
+        // constructor initializes empty heaps
+    public MedianFinder() {
 
-/**
- * Usage:
- * MedianFinder obj = new MedianFinder();
- * obj.addNum(num);
- * double median = obj.findMedian();
- */
+    PriorityQueue<Integer> mn = new PriorityQueue<>();
+    // min-heap for larger half
+    (Collections.reverseOrder());
+    PriorityQueue<Integer> mx = new PriorityQueue<>
