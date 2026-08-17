@@ -1,22 +1,18 @@
-}
-            mx.offer(mn.poll());
-        than mn
-        if (mx.size() < mn.size()) {
-        // Step 3: Ensure mx has equal or one more element 
-        
-        mn.offer(mx.poll());
-        // Step 2: Balance by moving largest from mx to mn
+mn.offer(mx.poll());
         
         mx.offer(num);
-        // Step 1: Add to max-heap first
     public void addNum(int num) {
-    
+        if (mx.size() < mn.size()) {
+            mx.offer(mn.poll());
+        }
     }
-        // constructor initializes empty heaps
-    public MedianFinder() {
-
-    PriorityQueue<Integer> mn = new PriorityQueue<>();
-    // min-heap for larger half
-    (Collections.reverseOrder());
-    PriorityQueue<Integer> mx = new PriorityQueue<>
-    // max-heap for smaller half
+    
+    public double findMedian() {
+        if (mx.size() == mn.size()) {
+            return (mx.peek() + mn.peek()) / 2.0;
+        } else {
+            
+            return mx.peek();
+        }
+    }
+}
