@@ -1,21 +1,15 @@
 1class Solution {
-public int missingInteger(int[] nums) {
-HashSet<Integer> set=new HashSet<>();
-int sum=nums[0];
-int i=0;
-while(i<nums.length-1 && nums[i]+1==nums[i+1])
-{
-sum+=nums[i+1];
-i++;
+public boolean stoneGameIX(int[] stones) {
+int[] count = new int[3];
+for (int stone : stones) {
+count[stone % 3]++;
 }
-for(int num: nums)
-{
-set.add(num);
+int c0 = count[0];
+int c1 = count[1];
+int c2 = count[2];
+if (c0 % 2 == 0) {
+return c1 > 0 && c2 > 0;
 }
-while(set.contains(sum))
-{
-sum++;
+return Math.abs(c1 - c2) > 2;
 }
-return sum;
-}
-24}
+17}
