@@ -2,7 +2,7 @@
 
 **Difficulty**: Hard  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/find-median-from-data-stream/](https://leetcode.com/problems/find-median-from-data-stream/)  
+**Problem URL**: [https://leetcode.com/problems/find-median-from-data-stream/submissions/2109974705/](https://leetcode.com/problems/find-median-from-data-stream/submissions/2109974705/)  
 
 ## Submission Details
 - **Status**: Accepted
