@@ -1,5 +1,4 @@
-class Solution {
-    // int solve(int idx, int[] nums, int[] dp)
+// int solve(int idx, int[] nums, int[] dp)
     // {
     //     if(idx>=nums.length) return 0;
     //     // if(dp[idx]!=-1) return dp[idx];
@@ -19,3 +18,4 @@ class Solution {
         {
         int np=dp[idx-1]+nums[idx-1];
         int p=dp[idx]+nums[idx];
+class Solution {
