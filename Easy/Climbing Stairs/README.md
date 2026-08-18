@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/climbing-stairs/](https://leetcode.com/problems/climbing-stairs/)  
+**Problem URL**: [https://leetcode.com/problems/climbing-stairs/submissions/2110177108/](https://leetcode.com/problems/climbing-stairs/submissions/2110177108/)  
 
 ## Submission Details
 - **Status**: Accepted
