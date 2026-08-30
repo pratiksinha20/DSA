@@ -1,2 +1,2 @@
 # DSA Solutions
-code pushed with solution .
+code pushed with solution.
