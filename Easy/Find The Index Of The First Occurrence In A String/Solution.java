@@ -1,20 +1,19 @@
-if (haystack.charAt(i) == needle.charAt(j)) {
+} else {
+                    len = lps[len - 1]; 
+                if (len != 0) {
                 i++;
-                j++;
-            }
+            } else {
+                lps[i] = len;
+                len++;
+            if (needle.charAt(i) == needle.charAt(len)) {
+        while (i < n) {
 
-            if (j == needle.length()) {
-                return i - j; 
-            } else if (i < haystack.length() && haystack.charAt
-            (i) != needle.charAt(j)) {
-                if (j != 0) {
-                    j = lps[j - 1]; 
-                } else {
-                    i++;
-                }
-            }
-        }
+        int i = 1;
+        int[] lps = new int[n];
+        int len = 0;
+        int n = needle.length();
+    private int[] computeLPS(String needle) {
+    
+class Solution {
 
-        return -1; 
-    }
-}
+import java.util.Arrays;
