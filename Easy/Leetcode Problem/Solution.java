@@ -1,15 +1,11 @@
 1class Solution {
-public boolean stoneGameIX(int[] stones) {
-int[] count = new int[3];
-for (int stone : stones) {
-count[stone % 3]++;
+2public:
+bool checkOverlap(int radius, int xCenter, int yCenter,
+int x1, int y1, int x2, int y2) {
+int x = max(x1, min(xCenter, x2));
+int y = max(y1, min(yCenter, y2));
+int dx = x - xCenter;
+int dy = y - yCenter;
+return dx * dx + dy * dy <= radius * radius;
 }
-int c0 = count[0];
-int c1 = count[1];
-int c2 = count[2];
-if (c0 % 2 == 0) {
-return c1 > 0 && c2 > 0;
-}
-return Math.abs(c1 - c2) > 2;
-}
-17}
+14};
