@@ -1,11 +1,36 @@
 1class Solution {
-2public:
-bool checkOverlap(int radius, int xCenter, int yCenter,
-int x1, int y1, int x2, int y2) {
-int x = max(x1, min(xCenter, x2));
-int y = max(y1, min(yCenter, y2));
-int dx = x - xCenter;
-int dy = y - yCenter;
-return dx * dx + dy * dy <= radius * radius;
+public:
+vector<string> maxNumOfSubstrings(string s) {
+const int n = s.length();
+vector<string> ans;
+vector<int> leftmost(26, n);
+vector<int> rightmost(26, -1);
+for (int i = 0; i < n; ++i) {
+leftmost[s[i] - 'a'] = min(leftmost[s[i] - 'a'], i);
+rightmost[s[i] - 'a'] = i;
 }
-14};
+auto getNewRight = [&](int i) {
+int right = rightmost[s[i] - 'a'];
+for (int j = i; j <= right; ++j) {
+if (leftmost[s[j] - 'a'] < i)
+return -1;
+right = max(right, rightmost[s[j] - 'a']);
+}
+return right;
+};
+int right = -1;
+for (int i = 0; i < n; ++i) {
+if (i == leftmost[s[i] - 'a']) {
+const int newRight = getNewRight(i);
+if (newRight == -1)
+continue;
+if (i <= right && !ans.empty())
+ans.back() = s.substr(i, newRight - i + 1);
+else
+ans.push_back(s.substr(i, newRight - i + 1));
+right = newRight;
+}
+}
+return ans;
+}
+44};
