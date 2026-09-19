@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/submissions/detail/2146703782/](https://leetcode.com/submissions/detail/2146703782/)  
+**Problem URL**: [https://leetcode.com/submissions/detail/2145510097/](https://leetcode.com/submissions/detail/2145510097/)  
 
 ## Submission Details
 - **Status**: Accepted
