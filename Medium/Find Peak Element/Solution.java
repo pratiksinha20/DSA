@@ -1,17 +1,19 @@
-return 0;
+else if ( mid == 0) {
+            }
+                }
+                    high = mid - 1;
                 } else {
-                    return 1;
+                    low = mid + 1;
+                else if (nums[mid] > nums[mid - 1]) {
                 }
-            }
-            else if ( mid == n - 1) {
-                if (nums[n-1] > nums[n - 2]) {
-                    return n-1;
-                } else {
-                    return n - 2;
-                }
-            }
-        }
-                if (nums[0] > nums[1]) {
-            else if ( mid == 0) {
-            }
-                }
+                    return mid;
+                if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
+            if (mid > 0 && mid < n-1) {
+            int mid = low + (high - low) / 2;
+        while (low <= high) {
+        if(n>1){
+        int high = n - 1;
+        int low = 0;
+        int n = nums.length;
+    public int findPeakElement(int[] nums) {
+class Solution {
