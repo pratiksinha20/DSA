@@ -1,36 +1,22 @@
 1class Solution {
-public:
-vector<string> maxNumOfSubstrings(string s) {
-const int n = s.length();
-vector<string> ans;
-vector<int> leftmost(26, n);
-vector<int> rightmost(26, -1);
-for (int i = 0; i < n; ++i) {
-leftmost[s[i] - 'a'] = min(leftmost[s[i] - 'a'], i);
-rightmost[s[i] - 'a'] = i;
+2public:
+string reverseParentheses(string s) {
+stack<string> st;
+string cur = "";
+for (char c : s) {
+if (c == '(') {
+st.push(cur);
+cur = "";
 }
-auto getNewRight = [&](int i) {
-int right = rightmost[s[i] - 'a'];
-for (int j = i; j <= right; ++j) {
-if (leftmost[s[j] - 'a'] < i)
-return -1;
-right = max(right, rightmost[s[j] - 'a']);
+else if (c == ')') {
+reverse(cur.begin(), cur.end());
+cur = st.top() + cur;
+st.pop();
 }
-return right;
-};
-int right = -1;
-for (int i = 0; i < n; ++i) {
-if (i == leftmost[s[i] - 'a']) {
-const int newRight = getNewRight(i);
-if (newRight == -1)
-continue;
-if (i <= right && !ans.empty())
-ans.back() = s.substr(i, newRight - i + 1);
-else
-ans.push_back(s.substr(i, newRight - i + 1));
-right = newRight;
+else {
+cur += c;
 }
 }
-return ans;
+return cur;
 }
-44};
+28};
