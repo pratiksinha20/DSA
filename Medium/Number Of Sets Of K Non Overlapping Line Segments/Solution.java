@@ -1,19 +1,15 @@
-return (int) (numerator * modInverse(denominator, MOD) % 
-        MOD);
-        // Modular inverse using Fermat's Little Theorem
-        
+private long modInverse(long a, long mod) {
+        return power(a, mod - 2, mod);
+    }
+    
+    private long power(long base, long exp, long mod) {
+        long res = 1;
+        base %= mod;
+        while (exp > 0) {
+            if (exp % 2 == 1) res = (res * base) % mod;
+            base = (base * base) % mod;
+            exp /= 2;
         }
-            denominator = (denominator * i) % MOD;
-            numerator = (numerator * (N - i + 1)) % MOD;
-        for (int i = 1; i <= K; i++) {
-        
-        long denominator = 1;
-        long numerator = 1;
-        // Compute C(N, K) % MOD
-        long K = 2 * k;
-        
-        long N = n + k - 1;
-        
-        long MOD = 1_000_000_007;
-    public int numberOfSets(int n, int k) {
-class Solution {
+        return res;
+    }
+}
