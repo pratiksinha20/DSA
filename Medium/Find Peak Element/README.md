@@ -2,7 +2,7 @@
 
 **Difficulty**: Medium  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/find-peak-element/submissions/2156353943/](https://leetcode.com/problems/find-peak-element/submissions/2156353943/)  
+**Problem URL**: [https://leetcode.com/problems/find-peak-element/](https://leetcode.com/problems/find-peak-element/)  
 
 ## Submission Details
 - **Status**: Accepted
