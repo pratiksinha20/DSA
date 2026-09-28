@@ -2,10 +2,10 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/submissions/detail/2145510097/](https://leetcode.com/submissions/detail/2145510097/)  
+**Problem URL**: [https://leetcode.com/submissions/detail/2154942778/](https://leetcode.com/submissions/detail/2154942778/)  
 
 ## Submission Details
 - **Status**: Accepted
-- **Submitted**: 2026-09-19
+- **Submitted**: 2026-09-28
 
 *Generated automatically by LeetCode Auto GitHub Sync.*
