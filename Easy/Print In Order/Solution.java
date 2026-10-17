@@ -1,17 +1,13 @@
-firstDone.countDown();
-    }
-
-    public void second(Runnable printSecond) throws 
+public void second(Runnable printSecond) throws 
     InterruptedException {
         firstDone.await();
-    public void first(Runnable printFirst) {
-        printFirst.run();
-    public Foo() {}
+        printSecond.run();
+        secondDone.countDown();
+    }
 
-    private CountDownLatch secondDone = new CountDownLatch(1);
-
-    private CountDownLatch firstDone = new CountDownLatch(1);
-
-class Foo {
-
-import java.util.concurrent.CountDownLatch;
+    public void third(Runnable printThird) throws 
+    InterruptedException {
+        secondDone.await();
+        printThird.run();
+    }
+}
