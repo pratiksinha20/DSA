@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/print-in-order/submissions/2174894629/](https://leetcode.com/problems/print-in-order/submissions/2174894629/)  
+**Problem URL**: [https://leetcode.com/problems/print-in-order/](https://leetcode.com/problems/print-in-order/)  
 
 ## Submission Details
 - **Status**: Accepted
