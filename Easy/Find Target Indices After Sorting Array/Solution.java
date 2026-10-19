@@ -1,5 +1,2 @@
 class Solution {
-    public List<Integer> targetIndices(int[] nums, int target) {
-        
-    }
-}
+    public List<Integer> targetIndices(int
