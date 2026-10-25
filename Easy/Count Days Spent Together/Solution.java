@@ -1,8 +1,17 @@
-class Solution {
-public:
-    int countDaysTogether(string arriveAlice, 
-    string leaveAlice, string arriveBob, string 
-    leaveBob) {
-        
-    }
-};
+arriveAlice, String leaveAlice,
+                                 String 
+                                 arriveBob, 
+                                 String leaveBob) 
+                                 {
+
+        int aliceStart = getDay(arriveAlice);
+        int aliceEnd = getDay(leaveAlice);
+
+        int bobStart = getDay(arriveBob);
+        int bobEnd = getDay(leaveBob);
+
+        int start = Math.max(aliceStart, 
+        bobStart);
+        int end = Math.min(aliceEnd, bobEnd);
+
+        return Math.max(0, end - start + 1);
