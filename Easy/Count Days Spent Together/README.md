@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/count-days-spent-together/description/?envType=daily-question&envId=2026-10-24](https://leetcode.com/problems/count-days-spent-together/description/?envType=daily-question&envId=2026-10-24)  
+**Problem URL**: [https://leetcode.com/problems/count-days-spent-together/?envType=daily-question&envId=2026-10-24](https://leetcode.com/problems/count-days-spent-together/?envType=daily-question&envId=2026-10-24)  
 
 ## Submission Details
 - **Status**: Accepted
