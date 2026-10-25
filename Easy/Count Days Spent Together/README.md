@@ -6,6 +6,6 @@
 
 ## Submission Details
 - **Status**: Accepted
-- **Submitted**: 2026-10-24
+- **Submitted**: 2026-10-25
 
 *Generated automatically by LeetCode Auto GitHub Sync.*
