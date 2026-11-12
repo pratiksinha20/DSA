@@ -8,4 +8,4 @@
 - **Status**: Accepted
 - **Submitted**: 2026-08-06
 
-*Generated automatically by LeetCode Auto GitHub Sync.*
+*Generated automatically by LeetCode Auto GitHub Sync.*.
