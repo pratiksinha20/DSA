@@ -1,18 +1,20 @@
-// in the last k numbers, so return 0
-        if (currentSize <= k) {
-            return 0;
-        }
-      
-        // Calculate product of last k elements by dividing the cumulative product at the end
-        // by the cumulative product just before the k elements
-        return cumulativeProducts.get(currentSize - 1) / cumulativeProducts.get(currentSize - k - 
-        1);
-    }
-}
+// If num is 0, reset the list since any product involving 0 will be 0
+    public void add(int num) {
+     */
+     * @param num The number to be added
+     * Adds a number to the data stream
 
-/**
- * Your ProductOfNumbers object will be instantiated and called as such:
- * ProductOfNumbers obj = new ProductOfNumbers();
- * obj.add(num);
- * int param_2 = obj.getProduct(k);
- */
+    /**
+        cumulativeProducts.add(1);
+    }
+        cumulativeProducts = new ArrayList<>();
+     */
+    public ProductOfNumbers() {
+     * This serves as a base for calculating products
+     * Constructor initializes the list with 1 as the first element
+    /**
+
+    private List<Integer> cumulativeProducts;
+    // Each element at index i stores the product of all elements from index 0 to i
+    // List to store cumulative products
+class ProductOfNumbers {
