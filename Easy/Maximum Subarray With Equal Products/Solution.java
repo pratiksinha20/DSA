@@ -1,5 +1,1 @@
-class Solution {
-    public int maxLength(int[] nums) {
-        
-    }
-}
+3411. Maximum Subarray With Equal Products
