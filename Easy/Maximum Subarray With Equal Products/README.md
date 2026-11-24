@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/maximum-subarray-with-equal-products/?envType=daily-question&envId=2026-11-24](https://leetcode.com/problems/maximum-subarray-with-equal-products/?envType=daily-question&envId=2026-11-24)  
+**Problem URL**: [https://leetcode.com/problems/maximum-subarray-with-equal-products/submissions/2202788896/?envType=daily-question&envId=2026-11-24](https://leetcode.com/problems/maximum-subarray-with-equal-products/submissions/2202788896/?envType=daily-question&envId=2026-11-24)  
 
 ## Submission Details
 - **Status**: Accepted
