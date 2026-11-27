@@ -1,20 +1,21 @@
-return minPossibleLen;
+long currentHash = 0;
+        // Build the hash of the first window [0, windowLen).
+
+        Map<Long, Integer> hashCounts = new HashMap<>();
+        // Count occurrences of each window hash.
+        int n = nums.length;
+
+            long[] powers) {
+            long modulo,
+            long base,
+            int windowLen,
+            int[] nums,
+    private boolean hasUniqueWindow(
+
+    }
+        return n; // Fallback (every element distinct trivially gives length 1).
+        for (int idx = 0; idx < windowLen; idx++) {
+            currentHash = (currentHash * base + nums[idx]) % modulo;
         }
-            }
-                minLen = midLen + 1;
-                maxLen = midLen - 1;
-            } else {
-                minPossibleLen = Math.min(minPossibleLen, midLen);
-            if (checkUniqueness(midLen)) {
-
-            int midLen = (minLen + maxLen) / 2;
-        while (minLen <= maxLen) {
-        // guaranteed for this problem; kept here to mirror the original code.
-        // NOTE: binary search assumes a monotonic predicate, which is not
-
-        int minLen = 1, maxLen = nums.length;    // Binary search bounds.
-        int minPossibleLen = nums.length;        // Base/default answer.
-
-        this.hashValues = new HashMap<>();
-
-        }
+        hashCounts.put(currentHash, 1);
+        for (int idx = 1; idx <= n - windowLen; idx++) {
