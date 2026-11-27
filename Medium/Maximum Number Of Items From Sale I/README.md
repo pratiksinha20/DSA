@@ -2,7 +2,7 @@
 
 **Difficulty**: Medium  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/maximum-number-of-items-from-sale-i/description/?envType=daily-question&envId=2026-11-27](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/description/?envType=daily-question&envId=2026-11-27)  
+**Problem URL**: [https://leetcode.com/problems/maximum-number-of-items-from-sale-i/?envType=daily-question&envId=2026-11-27](https://leetcode.com/problems/maximum-number-of-items-from-sale-i/?envType=daily-question&envId=2026-11-27)  
 
 ## Submission Details
 - **Status**: Accepted
