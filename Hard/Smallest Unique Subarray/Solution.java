@@ -1,21 +1,21 @@
-long currentHash = 0;
-        // Build the hash of the first window [0, windowLen).
+}
+        return n; 
 
-        Map<Long, Integer> hashCounts = new HashMap<>();
-        // Count occurrences of each window hash.
-        int n = nums.length;
-
-            long[] powers) {
-            long modulo,
-            long base,
-            int windowLen,
-            int[] nums,
-    private boolean hasUniqueWindow(
-
-    }
-        return n; // Fallback (every element distinct trivially gives length 1).
-        for (int idx = 0; idx < windowLen; idx++) {
-            currentHash = (currentHash * base + nums[idx]) % modulo;
         }
-        hashCounts.put(currentHash, 1);
-        for (int idx = 1; idx <= n - windowLen; idx++) {
+            }
+                return windowLen;
+            if (hasUniqueWindow(nums, windowLen, base, modulo, powers)) {
+        for (int windowLen = 1; windowLen <= n; windowLen++) {
+        }
+            powers[idx] = (powers[idx - 1] * base) % modulo;
+        for (int idx = 1; idx <= n; idx++) {
+        powers[0] = 1;
+        long[] powers = new long[n + 1];
+        // Precompute base powers once: powers[i] = base^i mod modulo.
+
+        long modulo = 1_000_000_007L;
+        long base = 19;
+
+        int n = nums.length;
+    public int smallestUniqueSubarray(int[] nums) {
+    // Primary (correct) approach: try each window length from smallest to largest.
