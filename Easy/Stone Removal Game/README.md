@@ -2,7 +2,7 @@
 
 **Difficulty**: Easy  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/stone-removal-game/?envType=daily-question&envId=2026-11-26](https://leetcode.com/problems/stone-removal-game/?envType=daily-question&envId=2026-11-26)  
+**Problem URL**: [https://leetcode.com/problems/stone-removal-game/submissions/2204119990/?envType=daily-question&envId=2026-11-26](https://leetcode.com/problems/stone-removal-game/submissions/2204119990/?envType=daily-question&envId=2026-11-26)  
 
 ## Submission Details
 - **Status**: Accepted
