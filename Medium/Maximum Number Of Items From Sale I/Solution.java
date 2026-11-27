@@ -1,17 +1,21 @@
-// 0/1 knapsack update: iterate budget from high to low so each item
-            // contributes at most once per dp state.
-            for (int j = budget; j >= price; j--) {
+for (int j = budget; j >= price; j--) {
                 dp[j] = Math.max(dp[j], dp[j - price] + count);
             }
         }
 
-        // For each possible spent amount i, the remaining budget (budget - i)
-        // can be used to buy additional cheapest items, each adding 1 to the count.
         int answer = 0;
         for (int i = 0; i <= budget; i++) {
             answer = Math.max(answer, dp[i] + (budget - i) / minPrice);
+            }
+                }
+                    count++;
+                if (otherItem[0] % factor == 0) {
+            for (int[] otherItem : items) {
+            int count = 0;
+            // This determines the "value" gained by selecting this item.
+            // Count how many items have a factor divisible by the current item's factor.
+
+            minPrice = Math.min(minPrice, price);
         }
 
         return answer;
-    }
-}
