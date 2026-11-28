@@ -2,7 +2,7 @@
 
 **Difficulty**: Hard  
 **Language**: Java  
-**Problem URL**: [https://leetcode.com/problems/smallest-unique-subarray/description/?envType=daily-question&envId=2026-11-25](https://leetcode.com/problems/smallest-unique-subarray/description/?envType=daily-question&envId=2026-11-25)  
+**Problem URL**: [https://leetcode.com/problems/smallest-unique-subarray/?envType=daily-question&envId=2026-11-25](https://leetcode.com/problems/smallest-unique-subarray/?envType=daily-question&envId=2026-11-25)  
 
 ## Submission Details
 - **Status**: Accepted
